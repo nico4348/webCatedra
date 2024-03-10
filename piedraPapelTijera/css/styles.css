@@ -1,0 +1,53 @@
+body{
+    text-align: center;
+    color: white;
+    background-color: azure;
+    font-size: 1.2rem;
+}
+
+#game-zone{
+    background-color: red;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+#resultado{
+    background-color: blue;
+    padding: 1rem;
+    border-radius: 50px;
+}
+
+#score{
+    background-color: rgb(96, 243, 145);
+    padding: 1rem;
+    border-radius: 50px;
+}
+#opcion{
+    color: black;
+}
+
+.btn{
+    border-radius: 50%;
+    cursor:  pointer;
+}
+.btn:hover{
+    border-radius: 50px;
+    cursor: pointer;
+    background-color: black;
+
+}
+#reinicio{
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 20px;
+    color: black;
+    cursor: pointer;
+}
+
+.container{
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid black;
+
+
+}

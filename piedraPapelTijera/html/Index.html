@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    
+</head>        
+    <section id="game-zone">
+        <figure>
+            <img src="../img/paper.png" alt="Eleccion Jugador" id='playerChoice'> 
+            <figcaption>Jugador</figcaption>
+        </figure>
+        <figure>
+            <img src="../img/paper.png" alt="Eleccion computador" id='computadoraChoice'> 
+            <figcaption>Computadora</figcaption>
+        </figure>
+    </section>
+
+
+    <p id="resultado">Comienza el <strong>juego</strong></p>
+    <p id="score">Comienza el <strong>juego</strong></p>
+
+
+    <section class="container">
+        <p id="opcion"> Escoje una opcion</p>
+        <button class="btn" data-choice="piedra" > 
+            <img src="../img/rock.png" alt="Jugador usando piedra">
+        </button>
+        <button class="btn" data-choice="papel" id ="btn"> 
+            <img src="../img/paper.png" alt="Jugador usando papel">
+        </button>    
+        <button class="btn" data-choice="tijera" > 
+            <img src="../img/scissors.png" alt="Jugador usando tijera">
+        </button>        
+    </section>
+    <section class="container">
+        <a id="reinicio">reinicio</a>
+    </section>
+    <script src="../js/app.js"></script>
+<body>
+    
+</body>
+</html>
